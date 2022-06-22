@@ -4,7 +4,7 @@ app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 
 
-# Create some test data for our catalog in the form of a list of dictionaries.
+# Creates some test data for our catalog in the form of a list of dictionaries.
 books = [
     {'id': 0,
      'title': 'A Fire Upon the Deep',
